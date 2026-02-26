@@ -1,6 +1,5 @@
-package org.codingexercises.problems;
+package org.codingexercises.problem.duplicate.element;
 
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -15,7 +14,7 @@ import java.util.Set;
  *       HashSet uses N space ( worse case to store all elements).
  *        Overall Space Complexity: O(N)
  */
-public class DuplicateElement {
+public class SetSolution {
 
     /**
      *
@@ -23,13 +22,13 @@ public class DuplicateElement {
      */
     public static void main(String[] args){
         int[] input1 = new int[]{1,2,3,4};
-        DuplicateElement de = new DuplicateElement();
+        SetSolution de = new SetSolution();
         boolean result1 = de.containsDuplicate(input1);
-        System.out.printf("Result 1: [%s]%n", result1);
+        System.out.printf("Result 1: [%s]", result1);
 
         int[] input2 = new int[]{3,2,3,4};
         boolean result2 = de.containsDuplicate(input2);
-        System.out.printf("Result 2: [%s]%n", result2);
+        System.out.printf("Result 2: [%s]", result2);
     }
 
     public boolean containsDuplicate(int[] nums){
