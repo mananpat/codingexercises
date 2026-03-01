@@ -1,4 +1,4 @@
-package org.codingexercises.problem.pangram;
+package org.codingexercises.problem;
 
 import java.util.HashSet;
 import java.util.Set;

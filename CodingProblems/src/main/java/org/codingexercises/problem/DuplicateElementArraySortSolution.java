@@ -1,4 +1,4 @@
-package org.codingexercises.problem.duplicate.element;
+package org.codingexercises.problem;
 
 import java.util.Arrays;
 
@@ -12,14 +12,14 @@ import java.util.Arrays;
  *                  if Quicksort then O(log N)
  */
 
-public class ArraySortSolution {
+public class DuplicateElementArraySortSolution {
 
     /**
      *
      * @param args
      */
     public static void main (String[] args) {
-        ArraySortSolution solution = new ArraySortSolution();
+        DuplicateElementArraySortSolution solution = new DuplicateElementArraySortSolution();
         int[] input1 = new int[]{1, 5, 2, 4};
         System.out.println(solution.checkForDuplicate(input1));
     }

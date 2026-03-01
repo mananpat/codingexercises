@@ -1,4 +1,4 @@
-package org.codingexercises.problem.reverse.vowel;
+package org.codingexercises.problem;
 
 /*
 Giving input string, reverse vowel characters.
